@@ -1,0 +1,49 @@
+# 配置文件请严格遵循yaml语法格式，yaml学习地址:
+#  https://ansible-tran.readthedocs.io/en/latest/docs/YAMLSyntax.html
+#  http://einverne.github.io/post/2015/08/yaml.html
+
+
+# 定时时间
+alarm_timed: '08:55'
+
+# 格言渠道
+# 1 : ONE●一个
+# 2 : 词霸（每日英语，双语）
+# 3 : 土味情话
+dictum_channel: 1
+#图灵key
+tuling_key:
+-
+    'accdd9340ef949738ea6a242bb0d94e1'
+-
+    '359159e3a4e942618d78e88b949ca024'
+-
+    '52e1fe64f1e645caa17828a4be35d8d5'
+
+# 是否开启自动回复限制  1:对指定好友开启自动回复,2:对所有好友开启自动回复
+open_reply_limit: 1
+auto_reply_list:
+# 请填写好友的微信昵称
+-
+    '王琳'
+
+-
+    '王琳'
+
+
+girlfriend_infos:
+  -
+    #女友微信昵称
+    wechat_name: '王琳'
+    #所在城市
+    city_name: '郑州'
+    # 关系开始时间
+    start_date: '2019-05-03'
+    # 结尾词
+    sweet_words: '来自最爱你的我。'
+#
+#
+
+
+
+
